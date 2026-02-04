@@ -11,7 +11,7 @@ def verificador_de_palindromo( palavra ):
     palavra = palavra.lower() # Converte a palavra para minúsculas para garantir a comparação sem case sensitivity.
     palavra_invertida = palavra[::-1] # Inverte a palavra usando slicing.
 
-    return palavra == palavra_invertida # Compara a palavra original com a invertida e retorna o resultado.
+    return palavra == palavra_invertida # Compara a palavra original com a invertida para ver se são iguais.
 
 def __main__():
 

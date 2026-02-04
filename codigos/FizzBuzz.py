@@ -25,4 +25,10 @@ def fizzbuzz( incio , fim ):
 
     return None
 
-fizzbuzz( 1, 100 ) # Chama a função com o intervalo de 1 a 100.
+def __main__():
+    
+    fizzbuzz( 1, 100 ) # Chama a função com o intervalo de 1 a 100.
+
+    return None
+
+__main__()
